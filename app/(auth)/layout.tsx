@@ -24,7 +24,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
           className="flex items-center gap-2 self-center font-bold"
           href={"/"}
         >
-          <Image src={Logo} alt="logo" width={42} height={32} />
+          <Image src={Logo} alt="logo" width={50} height={50} />
           Ign LMS
         </Link>
         {children}
